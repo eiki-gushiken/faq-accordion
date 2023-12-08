@@ -1,0 +1,33 @@
+@media (max-width: 576px) {
+    body {
+        font-size: 14.5px;
+        background-image: url(../images/background-pattern-mobile.svg);
+        padding: 80px 0;
+    }
+    
+    .faq-section {
+        max-width: 330px;
+        padding: 25px;
+        border-radius: 8px;
+    }
+
+    .faq-section .title {
+        font-size: 35px;
+    }
+
+    .faq-section .title::before {
+        margin-right: 15px;
+    }
+
+    .faq {
+        padding: 20px 0;
+    }
+
+    .question {
+        font-size: 16px;
+    }
+
+    .question p {
+        margin-right: 16px;
+    }
+}
